@@ -2,8 +2,8 @@ import { useState } from "react";
 import {
   CHARACTERS, GRADE_LEVELS, CT_CONCEPTS, THEMES,
   LESSON_DURATIONS, STUDENT_LEVELS, OUTPUT_TYPES,
-} from "../data/characters.js";
-import { generateLessonMock } from "../lib/generateLesson.js";
+} from "./characters.js";
+import { generateLessonMock } from "./generateLesson.js";
 import { LessonCard } from "./LessonCard.jsx";
 
 const DEFAULT_FORM = {
