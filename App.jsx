@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import { CharacterStudio } from "./components/CharacterStudio.jsx";
-import { ComicLessonGenerator } from "./components/ComicLessonGenerator.jsx";
+import { CharacterStudio } from "./CharacterStudio.jsx";
+import { ComicLessonGenerator } from "./ComicLessonGenerator.jsx";
 
 function App() {
   const [activeTab, setActiveTab] = useState("character");
