@@ -1,5 +1,5 @@
 
-import { CHARACTERS } from "../data/characters.js";
+import { CHARACTERS } from "./characters.js";
 // ─── AI Stub ──────────────────────────────────────────────────────────────────
 // TODO: Replace this function with a real AI API call.
 // Example using OpenAI:
