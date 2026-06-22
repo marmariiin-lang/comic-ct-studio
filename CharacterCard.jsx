@@ -13,6 +13,15 @@ export function CharacterCard({ data }) {
       </div>
 
       <div className="card-body">
+        <div className="character-avatar">
+  <div className="avatar-head">
+    <div className="avatar-eyes">
+      <span></span>
+      <span></span>
+    </div>
+    <div className="avatar-smile"></div>
+  </div>
+</div>
         <div className="section-block">
           <h4 className="section-label">Appearance</h4>
           <p>{data.appearanceDescription}</p>
