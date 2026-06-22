@@ -2,8 +2,8 @@ import { useState } from "react";
 import {
   CHARACTERS, FORMS, GENDER_STYLES, AGE_VIBES,
   VISUAL_STYLES, SETTINGS, PERSONALITY_TONES,
-} from "../data/characters.js";
-import { generateCharacterMock } from "../lib/generateCharacter.js";
+} from "./characters.js";
+import { generateCharacterMock } from "./generateCharacter.js";
 import { CharacterCard } from "./CharacterCard.jsx";
 
 const DEFAULT_FORM = {
