@@ -1,3 +1,4 @@
+
 import { CHARACTERS } from "../data/characters.js";
 // ─── AI Stub ──────────────────────────────────────────────────────────────────
 // TODO: Replace this function with a real AI API call.
